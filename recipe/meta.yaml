@@ -29,6 +29,7 @@ requirements:
   host:
     - r-base
     - r-r6
+    - r-cli
     - r-dplyr
     - r-magrittr
     - r-purrr
@@ -42,6 +43,7 @@ requirements:
   run:
     - r-base
     - r-r6
+    - r-cli
     - r-dplyr
     - r-magrittr
     - r-purrr
