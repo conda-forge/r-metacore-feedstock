@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/metacore_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/metacore/metacore_{{ version }}.tar.gz
-  sha256: ab14fa16e87f0d1b19f181ae82a023d8fecb2e51d6f5613494483dd6bb607c7c
+  sha256: 1fb4853a0803f9bf105b0e2a99c72994b0d124fd22e88b6a56ce20ca26904b17
 
 build:
   number: 0
