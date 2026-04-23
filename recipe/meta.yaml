@@ -31,6 +31,7 @@ requirements:
     - r-r6
     - r-cli
     - r-dplyr
+    - r-lifecycle
     - r-magrittr
     - r-purrr
     - r-readxl
@@ -45,6 +46,7 @@ requirements:
     - r-r6
     - r-cli
     - r-dplyr
+    - r-lifecycle
     - r-magrittr
     - r-purrr
     - r-readxl
@@ -61,7 +63,8 @@ test:
     - "\"%R%\" -e \"library('metacore')\""  # [win]
 
 about:
-  home: https://atorus-research.github.io/metacore/, https://github.com/atorus-research/metacore
+  home: https://atorus-research.github.io/metacore/
+  dev_url: https://github.com/atorus-research/metacore
   license: MIT
   summary: Create an immutable container holding metadata for the purpose of better enabling programming activities and functionality of other packages within the clinical programming workflow.
   license_family: MIT
