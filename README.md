@@ -3,11 +3,13 @@ About r-metacore-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-metacore-feedstock/blob/main/LICENSE.txt)
 
-Home: https://atorus-research.github.io/metacore/, https://github.com/atorus-research/metacore
+Home: https://atorus-research.github.io/metacore/
 
 Package license: MIT
 
 Summary: Create an immutable container holding metadata for the purpose of better enabling programming activities and functionality of other packages within the clinical programming workflow.
+
+Development: https://github.com/atorus-research/metacore
 
 Current build status
 ====================
